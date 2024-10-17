@@ -354,5 +354,41 @@ body {
     border-radius: 0.6rem;
 }
 
+.brands-container{
+    padding: 2rem 10.71rem 1rem 10.71rem;
+    background-color: white;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;   
+}
+
+.reasoning{
+    padding: 2rem 10.71rem 1rem 10.71rem;
+    background-color: white;
+}
+.reasons{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.reasons img{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+.reasons div{
+    font-family: Montserrat, sans-serrif;
+}
+
+.reasons div p{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #77777e;
+}
 
 
