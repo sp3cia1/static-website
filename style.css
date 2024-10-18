@@ -136,7 +136,7 @@ body {
     padding: 0.75rem 40rem;
     width: 28rem;
     background-color: rgb(239, 251, 252);
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #212121;
     font-size: 0.85rem;
     font-weight: 600;
@@ -211,13 +211,13 @@ body {
 }
 
 .heading{
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     color: #212121;
 }
 .head a{
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none;
@@ -249,7 +249,7 @@ body {
 }
 
 .product-review div{
-    font-family: Montserrat, sans-serrif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     display: inline;
 }
@@ -268,7 +268,7 @@ body {
 }
 
 .product-name{
-    font-family: Montserrat, sans-serrif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 500;
     color: #212121;
@@ -281,7 +281,7 @@ body {
 
 .product-price div{
     display: inline;
-    font-family: Montserrat, sans-serrif;
+    font-family: 'Montserrat', sans-serif;
     margin-right: 0.5rem;
 }
 
@@ -312,7 +312,7 @@ body {
 }
 
 .premium-price span{
-    font-family: Montserrat, sans-serrif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
     font-weight: 500;
     margin-left: 0.5rem;
@@ -382,7 +382,7 @@ body {
     margin-bottom: 1rem;
 }
 .reasons div{
-    font-family: Montserrat, sans-serrif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .reasons div p{
@@ -391,4 +391,103 @@ body {
     color: #77777e;
 }
 
+.footer {
+    background-color: #1a2a2d;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: "Montserrat", sans-serif;
+}
 
+.footer logo{
+    width: 200px;
+    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+.footer-section h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: #a0a0a0;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+
+.contact-info {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.subscribe-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    color:#1a2a2d
+}
+.subscribe-form h3{
+    color: #1a2a2d;
+}
+.subscribe-form input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.subscribe-form button {
+    background-color: #00a8a8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.app-download{
+    display: flex;
+    justify-content: space-evenly;
+}
+.app-download img {
+    height: 40px;
+    margin-right: 10px;
+}
+.bottom-footer {
+    margin-top: 30px;
+    border-top: 1px solid #2a3a3d;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.payment-methods img {
+    height: 30px;
+    margin-right: 10px;
+}
